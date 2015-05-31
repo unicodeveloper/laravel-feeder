@@ -1,6 +1,6 @@
 # Laravel-Feeder
 
-> Laravel 5 Package to Display your status as an Open Source Evangelist
+> Laravel 5 Package to extract atom and rss feeds from any website in a very good readable format
 
 ## Installation
 
@@ -42,4 +42,3 @@ GITHUB_API_URL=https://api.github.com
 ## Contributing
 
 Please feel free to fork this package and contribute by submitting a pull request to enhance the functionalities.
-
