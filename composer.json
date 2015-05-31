@@ -1,0 +1,17 @@
+{
+  "name": "busayo/laravel-feeder",
+  "description": "Extract Atoms and RSS feed contents from sites for your use",
+  "keywords": ["github", "laravel","Open Source","Evangelist", "Feeds", "Atom", "Rss"],
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "busayo",
+          "email": "prosperotemuyiwa@gmail.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "php": ">=5.4.0",
+      "illuminate/support": "5.0.*"
+  }
+}
