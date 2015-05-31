@@ -34,11 +34,15 @@ $ php artisan vendor:publish
 
 Download RSS feed from URL:
 
+```php
   $rss = Feed::loadRss($url);
+```
 
 The returned properties are SimpleXMLElement objects. Extracting
 the information from the channel is easy:
 
+
+```php
   echo 'Title: ', $rss->title;
   echo 'Description: ', $rss->description;
   echo 'Link: ', $rss->link;
@@ -50,10 +54,13 @@ the information from the channel is easy:
     echo 'Description ', $item->description;
     echo 'HTML encoded content: ', $item->{'content:encoded'};
   }
+```
 
 Download Atom feed from URL:
 
+```php
   $atom = Feed::loadAtom($url);
+```
 
 
 ## Contributing
