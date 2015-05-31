@@ -1,8 +1,6 @@
 <?php namespace Busayo\LaravelFeeder;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Foundation\AliasLoader;
-use Feed;
 
 class LaravelFeederServiceProvider extends ServiceProvider {
 
@@ -13,15 +11,6 @@ class LaravelFeederServiceProvider extends ServiceProvider {
    */
   protected $defer = false;
 
-  /**
-   * Bootstrap the application services.
-   *
-   * @return void
-   */
-  public function boot()
-  {
-
-  }
 
   /**
    * Register the application services.
@@ -30,19 +19,6 @@ class LaravelFeederServiceProvider extends ServiceProvider {
    */
   public function register()
   {
-    $this->app['test'] = $this->app->share(function($app){
-      return new Feed;
-    });
-
-    $this->app->booting(function()
-    {
-      AliasLoader::getInstance()->alias('Feed', 'Busayo\LaravelFeeder\Facades\LaravelFeederFacade');
-    });
+    $this->app->bind('feed', 'Busayo\LaravelFeeder\Feed');
   }
-
-  public function provides()
-  {
-    return ['Feed'];
-  }
-
 }

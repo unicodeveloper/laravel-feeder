@@ -11,7 +11,7 @@ class LaravelFeederFacade extends Facade {
      */
     protected static function getFacadeAccessor()
     {
-      return 'Feed';
+      return 'feed';
     }
 }
 

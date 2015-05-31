@@ -1,6 +1,6 @@
 {
   "name": "busayo/laravel-feeder",
-  "description": "Extract Atoms and RSS feed contents from sites for your use",
+  "description": "Laravel 5 Package to extract atom and rss feeds from any website",
   "keywords": ["github", "laravel","Open Source","Evangelist", "Feeds", "Atom", "Rss"],
   "license": "MIT",
   "authors": [
