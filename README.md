@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/unicodeveloper-approved-brightgreen.svg)
+
 # Laravel-Feeder
 
 > Laravel 5 Package to extract atom and rss feeds from any website in a very good readable format
