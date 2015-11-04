@@ -25,7 +25,6 @@ class Feed
 	/** @var SimpleXMLElement */
 	protected $xml;
 
-
 	/**
 	 * Loads RSS channel.
 	 * @param  string  RSS feed URL
@@ -60,7 +59,6 @@ class Feed
 		return $feed;
 	}
 
-
 	/**
 	 * Loads Atom channel.
 	 * @param  string  Atom feed URL
@@ -86,7 +84,6 @@ class Feed
 		return $feed;
 	}
 
-
 	/**
 	 * Returns property value. Do not call directly.
 	 * @param  string  tag name
@@ -96,7 +93,6 @@ class Feed
 	{
 		return $this->xml->{$name};
 	}
-
 
 	/**
 	 * Sets value of a property. Do not call directly.
@@ -108,7 +104,6 @@ class Feed
 	{
 		throw new Exception("Cannot assign to a read-only property '$name'.");
 	}
-
 
 	/**
 	 * Converts a SimpleXMLElement into an array.
@@ -136,7 +131,6 @@ class Feed
 
 		return $arr;
 	}
-
 
 	/**
 	 * Process HTTP request.
@@ -209,6 +203,5 @@ class Feed
 			}
 		}
 	}
-
 }
 
