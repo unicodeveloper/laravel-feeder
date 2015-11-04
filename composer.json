@@ -1,17 +1,17 @@
 {
-  "name": "busayo/laravel-feeder",
+  "name": "unicodeveloper/laravel-feeder",
   "description": "Laravel 5 Package to extract atom and rss feeds from any website",
-  "keywords": ["github", "laravel","Open Source","Evangelist", "Feeds", "Atom", "Rss"],
+  "keywords": ["github", "laravel","Open Source","Evangelist", "Feeds", "Atom", "Rss", "laravel 5"],
   "license": "MIT",
   "authors": [
       {
-          "name": "busayo",
-          "email": "prosperotemuyiwa@gmail.com"
+        "name": "unicodeveloper",
+        "email": "prosperotemuyiwa@gmail.com"
       }
   ],
   "minimum-stability": "dev",
   "require": {
-      "php": ">=5.4.0",
-      "illuminate/support": "5.0.*"
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*"
   }
 }

@@ -1,4 +1,6 @@
-<?php namespace Busayo\LaravelFeeder\Facades;
+<?php
+
+namespace Unicodeveloper\LaravelFeeder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
