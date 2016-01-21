@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/unicodeveloper/laravel-feeder/v/stable.svg)](https://packagist.org/packages/unicodeveloper/laravel-feeder)
 ![](https://img.shields.io/badge/unicodeveloper-approved-brightgreen.svg)
 [![License](https://poser.pugx.org/unicodeveloper/laravel-feeder/license.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/unicodeveloper/laravel-wfeedersvg)](https://travis-ci.org/unicodeveloper/laravel-feeder)
+[![Build Status](https://img.shields.io/travis/unicodeveloper/laravel-feeder.svg)](https://travis-ci.org/unicodeveloper/laravel-feeder)
 [![Quality Score](https://img.shields.io/scrutinizer/g/unicodeveloper/laravel-feeder.svg?style=flat-square)](https://scrutinizer-ci.com/g/unicodeveloper/laravel-feeder)
 [![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-feeder.svg?style=flat-square)](https://packagist.org/packages/unicodeveloper/laravel-feeder)
 
