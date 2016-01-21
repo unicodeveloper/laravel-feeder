@@ -14,6 +14,9 @@
     "php": ">=5.4.0",
     "illuminate/support": "5.0.*"
   },
+  "require-dev": {
+    "phpunit/phpunit": "5.*",
+  },
   "autoload": {
         "psr-4": {
           "Unicodeveloper\\LaravelFeeder\\": "src/"
