@@ -16,7 +16,7 @@
 To get the latest version of Laravel Feeder, simply add the following line to the require block of your `composer.json` file.
 
 ```
-"unicodeveloper/laravel-feeder": "1.0.*"
+"unicodeveloper/laravel-feeder": "1.1.*"
 ```
 
 You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
