@@ -9,9 +9,22 @@
         "email": "prosperotemuyiwa@gmail.com"
       }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
     "illuminate/support": "5.0.*"
-  }
+  },
+  "autoload": {
+        "psr-4": {
+          "Unicodeveloper\\LaravelFeeder\\": "src/"
+        }
+   },
+   "autoload-dev": {
+        "psr-4": {
+            "Unicodeveloper\\LaravelFeeder\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
 }
