@@ -40,7 +40,7 @@ You can also use a Facade
 To get started, you'll need to publish all vendor assets:
 
 ```bash
-$ php artisan vendor:publish
+$ php artisan vendor:publish --provider="Unicodeveloper\LaravelFeeder\LaravelFeederServiceProvider"
 ```
 ## Usage
 
