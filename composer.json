@@ -1,5 +1,5 @@
 {
-  "name": "wlad33/laravel-feeder",
+  "name": "unicodeveloper/laravel-feeder",
   "description": "Laravel 5.4 Package to extract atom and rss feeds from any website",
   "keywords": [
     "github",
@@ -13,10 +13,6 @@
   ],
   "license": "MIT",
   "authors": [
-    {
-      "name": "wlad33",
-      "email": "wlad33@hot.ee"
-    },
     {
       "name": "unicodeveloper",
       "email": "prosperotemuyiwa@gmail.com"
